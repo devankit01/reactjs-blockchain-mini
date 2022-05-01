@@ -1,0 +1,170 @@
+.App {
+
+  height: auto;
+  color: blanchedalmond;
+  background-color: #282c34;
+  padding: 15px 25px;
+
+}
+
+h5 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.input_box {
+  padding: 4px 20px;
+
+}
+
+.crypto {
+  background-color: #282c34;
+  color: aliceblue;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #61dafb;
+  font-size: 18px;
+}
+
+.nav hr {
+  margin-top: 15px;
+}
+
+.nav {
+  padding-top: 10px;
+
+}
+
+.crypto__coins {
+  color: aliceblue;
+}
+
+.App-link {
+  padding: 10px 12px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn {
+  padding: 8px 12px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+
+/* Crypto Table */
+input {
+  padding: 0px 12px;
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+.red {
+  color: rgb(243, 7, 7);
+}
+
+.green {
+  color: rgb(71, 247, 71);
+}
+
+
+
+
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+}
+
+.symbol {
+  text-align: center;
+}
+.main__row{
+  display: flex;
+  justify-content: space-between;
+
+}
+.main__row div:nth-child(2){
+  margin-top: 14%;
+  margin-right: 10%;
+}
+.eth__card{
+  height: 180px;
+  width: 300px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-line {
+  height: 50%;
+  width: 2px;
+  background-color: white;
+}
+
+.App-main {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
